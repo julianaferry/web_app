@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="utp-8">
+        <meta name="viewport"content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/opcoesDaPagina.css">
+        <link rel="stylesheet" href="css/cartao.css">
+        <link rel="stylesheet" href="css/opcoesDoCartao.css">
+        <link rel="stylesheet" href="css/novoCartao.css">
+        <link rel="stylesheet" href="css/mural.css">
+        <link rel="stylesheet" href="css/botaoSync.css">
+        <title>Itens</title>
+    </head>
+        <body>
+            <header class="cabecalho container">
+                <h1 class="cabecalho-logo">Ceep</h1>
+                    <div class="opcoesDaPagina">
+                        <input type="search" id="busca" placeholder="busca" class="opcoesDaPagina-opcao">
+                            <button id="sync" class="opcoesDaPagina-opcao opcoesDaPagina-botao botaoSync" >
+                                    <svg height="1em" viewBox="0 0 384 384">
+                                        <title>sincronizar</title>
+                                            <path d="M327.731 172.734c5.938 40.859-6.531 83.891-38.406 115.297-47.094 46.469-119.75 52.188-173.188 17.281l37.438-36.5-137.595-19.188 19.203 134.375 42.015-40.25c75.453 55.625 182.469 50.375 251.032-17.281 39.75-39.219 57.875-91.281 55.625-142.656l-56.125-11.078zM94.73 96.031c47.078-46.469 119.719-52.219 173.156-17.281l-37.5 36.484 137.594 19.203-19.188-134.438-41.969 40.344c-75.469-55.672-182.453-50.359-251.031 17.281-39.75 39.203-57.859 91.266-55.625 142.625l56.125 11.063c-5.938-40.875 6.563-83.859 38.438-115.281z"></path>
+                                        </svg>
+                                    </button>
+                                    <button id="ajuda" class="opcoesDaPagina-opcao opcoesDaPagina-botao" >?</button>
+                            <button id="mudaLayout" class="opcoesDaPagina-opcao opcoesDaPagina-botao" >Linhas
+                            </button>
+                    </div>
+            </header>
+           
+                    <form class="novoCartao container">
+                        <textarea class="novoCartao-conteudo" name="novoCartao-conteudo" placeholder="Digite aqui"></textarea>
+                        <input class="novoCartao-salvar" type="submit" value="salvar">
+                    </form>
+              
+                <section class="container mural">
+                    <!--<div class="cartao" id="cartao_1">
+                        <div class="opcoesDoCartao">
+                            <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" data-ref="cartao_1">Remove</button>
+                        </div>
+                        <p class="cartao-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis nam autem facere minima fugiat mollitia vitae unde, excepturi esse aliquid, nemo similique doloremque earum, recusandae laudantium cumque voluptate sit!</p>
+                    </div>
+
+                    <div class="cartao" id="cartao_2">
+                            <div class="opcoesDoCartao" >
+                                 <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" data-ref="cartao_2">Remove</button>
+                            </div>
+                            <p class="cartao-conteudo cartao--texoPequeno">Necessitatibus harum exercitationem a. Quibusdam delectus vel eos cupiditate, dolores rerum corrupti placeat accusamus ipsum doloremque dolore voluptatibus pariatur itaque harum temporibus quis vitae. Dolore ratione adipisci odit voluptas dicta.</p>
+                    </div>
+
+                    <div class="cartao"  id="cartao_3">
+                            <div class="opcoesDoCartao">
+                                <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" data-ref="cartao_3">Remove</button>
+                            </div>
+                            <p class="cartao-conteudo cartao--textoMedio">Facilis vitae qui delectus ratione temporibus possimus eum ad sed repudiandae, eligendi cumque itaque nulla porro nostrum ea tempora ex ipsa culpa harum. Cum, dolore nesciunt magni accusantium autem sapiente!</p>
+                    </div>
+                    
+                    <div class="cartao"  id="cartao_4">
+                            <div class="opcoesDoCartao">
+                                <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" data-ref="cartao_4">Remove</button>
+                            </div>
+                                <p class="cartao-conteudo cartao--textoGrande">Eligendi et impedit, officiis sunt accusantium alias in. Unde cumque, assumenda doloremque eaque harum quo rerum eius ad culpa veritatis quos autem vel laboriosam, in eligendi sit? Sunt, quaerat corporis!</p>
+                   
+                    </div>
+                   
+                    <div class="cartao" id="cartao_5">
+                            <div class="opcoesDoCartao">
+                                <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" data-ref="cartao_5">Remove</button>
+                            </div>
+                            <p class="cartao-conteudo">Cum culpa voluptates molestias, excepturi iusto ea esse, corrupti minima aspernatur obcaecati inventore quae soluta fugiat consectetur. Cum, tempora doloribus alias placeat accusamus quae, quidem, deserunt iste qui esse doloremque!</p>
+                    </div>-->
+                </section>
+                <script src="js/jquery.js"></script>
+                <script src="js/criaOpcoesDoCartao.js"></script>
+                <script src="js/controladorDeCartoes.js"></script>
+                <script src="js/mudaLayout.js"></script>
+                <script src="js/busca.js"></script>
+                <script src="js/novoCartao.js"></script>
+                <script src="js/ajuda.js"></script>
+                <script src="js/sincronizacao.js"></script>
+        </body>
+    <footer></footer>
+</html>
