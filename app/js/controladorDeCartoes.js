@@ -66,7 +66,24 @@
                     .css("background-color",cor)
                     .prependTo(".mural");
     }
-    
+     var timer;
+    function editaCartaoHandler(event){
+        clearTimeout(timer);
+
+        timer = setTimeout(function(){
+            $(document).trigger("precisaSincronizar");
+        },1000);
+    }
+
+   /* var time;
+    function debounce(event){
+        return function(){
+            clearTimeout(time),
+            timer = setTimeout(event,1000);
+        }
+     
+      }*/
+
    return {
       adicionaCartao: adicionaCartao,
       idUltimoCartao: function() {
